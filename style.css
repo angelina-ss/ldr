@@ -1,0 +1,41 @@
+body {
+    font-family: 'Jost', sans-serif;
+    background-image: url(image/three_robots.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: azure;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.title-img {
+    width: 3%;
+    height: 3%;
+}
+
+.nav-text {
+    color: azure;
+}
+
+.nav-text:hover {
+    color: darkgrey;
+}
+
+.desc {
+    text-align: center;
+}
+
+.photo {
+    width: 10%;
+    height: 10%;
+    clip-path: circle(50% at 50% 50%);
+}
